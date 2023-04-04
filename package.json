@@ -1,0 +1,26 @@
+{
+  "name": "mocha-learning",
+  "version": "1.0.0",
+  "description": "A converter site to implement a mocha/chai test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ezinnem/converter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ezinnem/converter/issues"
+  },
+  "homepage": "https://github.com/Ezinnem/converter#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "request": "^2.88.2"
+  }
+}
